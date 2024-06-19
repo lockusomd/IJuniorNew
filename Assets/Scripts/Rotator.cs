@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Rotator : MonoBehaviour
+public class Rotator : Changer
 {
-    [SerializeField] float _speed = 0.3f;
-
     private void Update()
     {
         Rotate();

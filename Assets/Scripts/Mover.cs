@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Mover : MonoBehaviour
+public class Mover : Changer
 {
-    [SerializeField] private float _speed = -1f;
-
     private void Update()
     {
             MoveForward();

@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Grower : MonoBehaviour
+public class Grower : Changer
 {
-    [SerializeField] private float _speed = 0.3f;
-
     private void Update()
     {
         Grow();
