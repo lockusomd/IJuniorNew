@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class Cube : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] float _speed = 0.3f;
 
     private void Update()
     {
-        Spin();
+        Rotate();
     }
 
-    private void Spin()
+    private void Rotate()
     {
         transform.Rotate(0, _speed, 0);
     }
